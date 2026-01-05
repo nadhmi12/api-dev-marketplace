@@ -1,0 +1,35 @@
+{
+  "name": "nodejs-api",
+  "version": "1.0.0",
+  "description": "Comprehensive Node.js API development toolkit with Express.js, database integration, Docker, testing, and Swagger documentation",
+  "author": {
+    "name": "API Dev Team",
+    "email": "dev@example.com"
+  },
+  "homepage": "https://github.com/your-org/api-dev-marketplace",
+  "repository": "https://github.com/your-org/api-dev-marketplace",
+  "keywords": ["nodejs", "express", "api", "rest", "mongodb", "postgresql", "docker", "testing", "swagger"],
+  "category": "Web Development",
+  "commands": [
+    "init-express-api",
+    "add-endpoint",
+    "setup-mongodb",
+    "setup-postgresql",
+    "generate-docker",
+    "generate-swagger",
+    "run-tests",
+    "setup-jest",
+    "setup-ci"
+  ],
+  "agents": [
+    "api-generator",
+    "database-designer"
+  ],
+  "skills": [
+    "express-best-practices",
+    "api-design-patterns",
+    "error-handling",
+    "security-considerations"
+  ],
+  "hooks": "./hooks/hooks.json"
+}

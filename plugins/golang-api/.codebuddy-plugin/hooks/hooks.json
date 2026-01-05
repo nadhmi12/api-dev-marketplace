@@ -1,0 +1,26 @@
+{
+  "hooks": {
+    "user-prompt-submit-hook": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "echo 'Golang API plugin: Processing user request'",
+            "timeout": 1000
+          }
+        ]
+      }
+    ],
+    "before-tool-use-hook": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "echo 'Golang API plugin: About to execute tool'",
+            "timeout": 500
+          }
+        ]
+      }
+    ]
+  }
+}

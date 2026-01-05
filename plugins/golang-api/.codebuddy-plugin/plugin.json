@@ -1,0 +1,35 @@
+{
+  "name": "golang-api",
+  "version": "1.0.0",
+  "description": "Comprehensive Golang API development toolkit with Gin framework, database integration, Docker, testing, and Swagger documentation",
+  "author": {
+    "name": "API Dev Team",
+    "email": "dev@example.com"
+  },
+  "homepage": "https://github.com/your-org/api-dev-marketplace",
+  "repository": "https://github.com/your-org/api-dev-marketplace",
+  "keywords": ["golang", "go", "gin", "api", "rest", "mongodb", "postgresql", "docker", "testing", "swagger"],
+  "category": "Web Development",
+  "commands": [
+    "init-gin-api",
+    "add-endpoint",
+    "setup-mongodb",
+    "setup-postgresql",
+    "generate-docker",
+    "generate-swagger",
+    "run-tests",
+    "setup-gotest",
+    "setup-ci"
+  ],
+  "agents": [
+    "api-generator",
+    "database-designer"
+  ],
+  "skills": [
+    "go-best-practices",
+    "api-design-patterns",
+    "error-handling",
+    "security-considerations"
+  ],
+  "hooks": "./hooks/hooks.json"
+}
