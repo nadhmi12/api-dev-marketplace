@@ -1,0 +1,27 @@
+{
+  "name": "api-dev-marketplace",
+  "description": "Comprehensive plugin marketplace for API development with Node.js, Express.js, Golang, and Gin framework",
+  "version": "1.0.0",
+  "owner": {
+    "name": "API Dev Team",
+    "email": "dev@example.com"
+  },
+  "plugins": [
+    {
+      "name": "nodejs-api",
+      "source": "./plugins/nodejs-api",
+      "description": "Complete Node.js API development toolkit with Express.js, database integration, Docker, testing, and Swagger documentation",
+      "category": "Web Development",
+      "keywords": ["nodejs", "express", "api", "rest", "mongodb", "postgresql", "docker", "testing", "swagger"],
+      "version": "1.0.0"
+    },
+    {
+      "name": "golang-api",
+      "source": "./plugins/golang-api",
+      "description": "Complete Golang API development toolkit with Gin framework, database integration, Docker, testing, and Swagger documentation",
+      "category": "Web Development",
+      "keywords": ["golang", "go", "gin", "api", "rest", "mongodb", "postgresql", "docker", "testing", "swagger"],
+      "version": "1.0.0"
+    }
+  ]
+}
